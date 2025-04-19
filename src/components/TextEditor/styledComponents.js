@@ -66,7 +66,7 @@ export const TextArea = styled.textarea`
   outline: none;
   font-weight: ${props => (props.bold ? 'bold' : 'normal')};
   font-style: ${props => (props.italic ? 'italic' : 'normal')};
-  text-decoration: ${props => (props.underline ? 'underline' : 'none')};
+  text-decoration: ${props => (props.underline ? 'underline' : 'normal')};
 
   flex-grow: 1;
 
